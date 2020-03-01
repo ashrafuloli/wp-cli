@@ -15,7 +15,7 @@
 * [Cli Comments](https://github.com/ashrafuloli/wp-cli/#cli-comments)
 * [Create Config File](https://github.com/ashrafuloli/wp-cli/#create-config-file)
 * [WP Database Create](https://github.com/ashrafuloli/wp-cli/#wp-db-create)
-* [WP Install](https://github.com/ashrafuloli/wp-cli/blob/#wp-install)
+* [WP Install](https://github.com/ashrafuloli/wp-cli/#wp-install)
 * [Run Server](https://github.com/ashrafuloli/wp-cli/#run-server)
 * [WP Theme](https://github.com/ashrafuloli/wp-cli/#wp-theme)
 * [WP Plugin](https://github.com/ashrafuloli/wp-cli/#wp-plugin)
