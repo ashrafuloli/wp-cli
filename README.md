@@ -1,7 +1,26 @@
 # WP CLI
-- https://developer.wordpress.org/cli/commands/
+- https://wp-cli.org/
+- Online handbook
+  - https://make.wordpress.org/cli/handbook/
+- Online command reference
+  - https://developer.wordpress.org/cli/commands/
 - https://www.youtube.com/watch?v=cXmMu1sOzEQ&t
-- [Cli Comments](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#cli-comments)
+- Built-in user manual
+  - wp help <command> / wp --help
+- Guided interactive mode
+  - wp <command> --prompt
+
+## List
+
+* [Cli Comments](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#cli-comments)
+* [Create Config File](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#create-config-file)
+* [WP Database Create](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-db-create)
+* [WP Install](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-install)
+* [Run Server](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#run-server)
+* [WP Theme](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-theme)
+* [WP Plugin](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-plugin)
+* [WP Post](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-post)
+* [WP Scaffold](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-scaffold)
 
 ## Setup Your Environment
 - first you copy "bin" folder in your C:\Users\ {Your-Name}
@@ -48,7 +67,12 @@ Now go to the project file and open command line.
 - `wp plugin install elementor`
 - `wp plugin activate elementor`
 - `wp plugin install contact-form-7 --activate`
+- `wp plugin install advanced-custom-fields jetpack ninja-forms --activate`
+- `wp plugin install advanced-custom-fields jetpack https://mysite/myplugin.zip --activate`
 - `wp plugin delete hello`
+- `wp plugin deactivate wordpress-seo`
+- `wp plugin deactivate --all`
+- `wp plugin update wordpress-seo`
 
 ### WP Post
 - https://developer.wordpress.org/cli/commands/post/
@@ -62,3 +86,33 @@ Now go to the project file and open command line.
 - `wp scaffold plugin sample-plugin` Generate Plugin Init
 - `wp scaffold _s sample-theme --theme_name="Sample Theme" --author="Ashraful Oli"` Generate Theme Init by Underscores
 - `wp scaffold post-type movie --label=Movie --theme=sample-theme` Generate Post Type
+
+### Site management
+
+# Administer broken or slow sites
+> WP-CLI loads before WordPress, allowing control over what loads.
+- Reinstall WordPress Core:
+  - `wp core download --skip-content --force`
+- Skip loading all or some plugins or themes:
+  - `--skip-plugins `
+  - `--skip-plugins=a-slow-plugin `
+  - `--skip-themes `
+- Show all PHP errors:
+  - `--debug `
+- Search And Replace
+  - `wp search-replace oldstring newstring`
+- Reset user passwords
+  - `wp user update rock.ashraful@gmail.com --user_pass=1234567`
+- Create a POT
+  - `wp i18n make-pot`
+  - https://developer.wordpress.org/cli/commands/i18n/make-pot/ 
+- Control Maintenance Mode
+  - `wp maintenance-mode activate`
+  - `wp maintenance-mode deactivate`
+  - `wp maintenance-mode status`
+  
+  
+
+
+
+  
