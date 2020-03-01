@@ -12,15 +12,15 @@
 
 ## List
 
-* [Cli Comments](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#cli-comments)
-* [Create Config File](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#create-config-file)
-* [WP Database Create](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-db-create)
-* [WP Install](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-install)
-* [Run Server](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#run-server)
-* [WP Theme](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-theme)
-* [WP Plugin](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-plugin)
-* [WP Post](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-post)
-* [WP Scaffold](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#wp-scaffold)
+* [Cli Comments](https://github.com/ashrafuloli/wp-cli/#cli-comments)
+* [Create Config File](https://github.com/ashrafuloli/wp-cli/#create-config-file)
+* [WP Database Create](https://github.com/ashrafuloli/wp-cli/#wp-db-create)
+* [WP Install](https://github.com/ashrafuloli/wp-cli/blob/#wp-install)
+* [Run Server](https://github.com/ashrafuloli/wp-cli/#run-server)
+* [WP Theme](https://github.com/ashrafuloli/wp-cli/#wp-theme)
+* [WP Plugin](https://github.com/ashrafuloli/wp-cli/#wp-plugin)
+* [WP Post](https://github.com/ashrafuloli/wp-cli/#wp-post)
+* [WP Scaffold](https://github.com/ashrafuloli/wp-cli/#wp-scaffold)
 
 ## Setup Your Environment
 - first you copy "bin" folder in your C:\Users\ {Your-Name}
@@ -87,9 +87,8 @@ Now go to the project file and open command line.
 - `wp scaffold _s sample-theme --theme_name="Sample Theme" --author="Ashraful Oli"` Generate Theme Init by Underscores
 - `wp scaffold post-type movie --label=Movie --theme=sample-theme` Generate Post Type
 
-### Site management
 
-# Administer broken or slow sites
+# Site management
 > WP-CLI loads before WordPress, allowing control over what loads.
 - Reinstall WordPress Core:
   - `wp core download --skip-content --force`
