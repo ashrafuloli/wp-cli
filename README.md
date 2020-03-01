@@ -1,6 +1,7 @@
 # WP CLI
 - https://developer.wordpress.org/cli/commands/
 - https://www.youtube.com/watch?v=cXmMu1sOzEQ&t
+- [Cli Comments](https://github.com/ashrafuloli/wp-cli/blob/master/README.md#cli-comments)
 
 ## Setup Your Environment
 - first you copy "bin" folder in your C:\Users\ {Your-Name}
