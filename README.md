@@ -37,6 +37,7 @@ Now go to the project file and open command line.
 
 # Cli Comments
 - https://developer.wordpress.org/cli/commands/
+- `wp core download`
 
 ### Create Config File
 - https://developer.wordpress.org/cli/commands/config/create/
