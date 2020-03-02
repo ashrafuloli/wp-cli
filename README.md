@@ -110,6 +110,11 @@ Now go to the project file and open command line.
   - `wp maintenance-mode activate`
   - `wp maintenance-mode deactivate`
   - `wp maintenance-mode status`
+- Define
+  - https://developer.wordpress.org/cli/commands/config/set/
+  - ` wp config set WP_DEBUG true `
+  - ` wp config set WP_SITEURL "http://localhost/wedevs-academy" `
+  - ` wp config set WP_HOME "http://localhost/wedevs-academy" `
   
   
 
